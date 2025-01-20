@@ -24,3 +24,18 @@ class Patient:
         return f"Статус пациента \nИмя: {self.first_name} \nФамилия: {self.second_name} \nБолезнь: {self.virus}"
 
 
+class TouristSpot:
+    def __init__(self, name: str, country: str, type: str, data: str ):
+        """
+
+        :param name: название достопримечательности
+        :param country: страна в которой находиится достопримечательность
+        :param type: тип: историческая религиозная и тп
+        :param data: год основания
+        """
+        self.name = name
+        self.country = country
+        self.type = type
+        self.data = data
+
+
