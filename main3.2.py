@@ -38,4 +38,9 @@ class TouristSpot:
         self.type = type
         self.data = data
 
+    def visit(self, name_tourist):
+        return (f"Добро пожаловать {name_tourist} \nэто ваш пропуск к {self.name} \n приятного вам отпуска   "
+                )
 
+    def status(self):
+        return f"Достопримечательность: {self.name}\n тип достопримечательности \n{self.data}: дата основания \n{self.country}: место нахождения   "
